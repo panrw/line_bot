@@ -157,5 +157,5 @@ def create_bill_information():
 # except Exception as e:
 #     print(f'Error: {e}')
 
-def liffRouter(request):
-    return render(request, 'liff.html')
+def indexRouter(request):
+    return render(request, 'index.html')

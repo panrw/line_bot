@@ -22,5 +22,5 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     path('callback', views.callback),
     path('callback2', views.callback2),
-    path('liff', views.liffRouter),
+    path('index', views.indexRouter),
 ]
